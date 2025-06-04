@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect, useState } from "react";
 import "./App.css";
-import wall from "./images/wall.png";
-import coin from "./images/coin.png";
-import pacmann from "./images/pacman.png";
-import ghost from "./images/ghost2.png";
-import bg from "./images/bg.png";
+import wall from "./wall.png";
+import coin from "./coin.png";
+import pacmann from "./pacman.png";
+import ghost from "./ghost2.png";
+import bg from "./bg.png";
 
 const PacManGame = () => {
   const [pacman, setPacman] = useState({ x: 6, y: 4 });
